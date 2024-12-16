@@ -1,0 +1,30 @@
+---
+name: 🐞 Bug Report
+description: Use this template to report a bug in the within DeployStack or generated IaC template.
+title: "[Bug]: "
+labels:
+  - "ty: bug"
+
+body:
+  - type: markdown
+    attributes:
+      value: >
+        **Thank you for helping us improve DeployStack!** 
+        
+        Before submitting a new bug report, please check our [existing issues](https://github.com/deploystackio/feedback/issues?q=is%3Aissue+label%3Aty%3Abug) to see if someone else has already reported this problem.
+
+  - type: textarea
+    attributes:
+      label: Describe the bug
+      description: >
+        Please provide a clear description of the issue you're experiencing. To help us resolve your issue quickly, please include:
+
+        - Which cloud provider you're deploying to (AWS, DigitalOcean, Render, etc.)
+        - The generated IaC template or app name
+        - Any error messages, logs, or screenshots showing the problem
+
+        The more details you provide, the faster we can help!        
+      value: |
+        <!--- Describe your issue here --->
+    validations:
+      required: true
